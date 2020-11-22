@@ -9,7 +9,9 @@
 * Disk: [WD SN550 NVMe SSD](https://www.westerndigital.com/products/internal-drives/wd-blue-nvme-ssd)
 * GPU: [Gigabyte NVIDIA GTX 1660 SUPER](https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD#kf)
 * Mobo: [ASUS ROG STRIX B450-I GAMING](https://rog.asus.com/Motherboards/ROG-Strix/ROG-STRIX-B450-I-GAMING-Model/)
-* Modules: [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html) <br> [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
+* Modules: 
+    * [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html)
+    * [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
 
 <br>
 
