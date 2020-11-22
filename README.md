@@ -1,7 +1,7 @@
 # Nebulae <img width="25" height="25" src="/gentoo-logo.png">
 <i>A lightweight i3-gaps theme with condensed documentation on Gentoo</i>
 
-[Installation](documentation/installation.md) | [Kernel Build](documentation/kernel.md) | [Environment Management](documentation/management.md)
+[Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
 
 ---
 
