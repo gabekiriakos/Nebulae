@@ -1,7 +1,6 @@
 # Installation
 
-The most essential step is often the most challenging.<br>
-The following is a condensed version of the [AMD64 Handbook](https://wiki.gentoo.org/wiki/Handbook:AMD64).<br>
+The following is a condensed version of the [AMD64 Handbook](https://wiki.gentoo.org/wiki/Handbook:AMD64) for installing Gentoo.<br>
 It is highly recommended to observe it throughout this process for details specific to your own build since this is personalized.
 
 ```bash
