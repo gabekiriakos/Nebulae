@@ -3,6 +3,16 @@
 
 ---
 
+<b>Hardware:</b>
+* CPU: [AMD Ryzen 3600 @ 4.2Ghz](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
+* RAM: [G.Skill FlareX 3200Mhz 16GB](https://www.gskill.com/product/165/170/1535961634/F4-3200C14D-16GFX-Overview)
+* Disk: [WD SN550 NVMe SSD](https://www.westerndigital.com/products/internal-drives/wd-blue-nvme-ssd)
+* GPU: [Gigabyte NVIDIA GTX 1660 SUPER](https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD#kf)
+* Mobo: [ASUS ROG STRIX B450-I GAMING](https://rog.asus.com/Motherboards/ROG-Strix/ROG-STRIX-B450-I-GAMING-Model/)
+* Modules: [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html) <br> [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
+
+<br>
+
 <b>Overview:</b>
 * Distro: [Gentoo](https://www.gentoo.org/)
 * Init: [OpenRC](https://wiki.gentoo.org/wiki/Project:OpenRC)
