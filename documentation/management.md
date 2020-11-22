@@ -1,4 +1,4 @@
-# Environment Management
+# Management
 
 Although the following commands are often used, check the [cheat sheet](https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet) for details.
 
