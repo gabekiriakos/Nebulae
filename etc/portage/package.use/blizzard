@@ -1,0 +1,6 @@
+sys-libs/readline abi_x86_32
+app-crypt/p11-kit abi_x86_32
+dev-db/sqlite abi_x86_32
+dev-libs/libusb abi_x86_32
+dev-libs/libgpg-error abi_x86_32
+net-libs/gnutls abi_x86_32

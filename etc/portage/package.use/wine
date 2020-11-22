@@ -1,0 +1,330 @@
+# package.use# required by media-libs/libsdl2-2.0.12-r2::gentoo[X]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libXcursor-1.2.0 abi_x86_32
+# required by x11-libs/libXtst-1.2.3-r1::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libXi-1.7.10 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[alsa,alsa-plugin]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/alsa-lib-1.2.3.2-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/fontconfig-2.13.1-r2 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/lcms-2.11 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[nls]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-devel/gettext-0.21 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[png]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libpng-1.6.37-r2 abi_x86_32
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-sound/pulseaudio-13.0 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=net-libs/gnutls-3.6.15 abi_x86_32
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/freetype-2.10.4 abi_x86_32
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[dbus]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-apps/dbus-1.12.18 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[xcomposite]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libXcomposite-0.4.5 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r1::gentoo
+# required by sys-libs/pam-1.4.0_p20200829-r1::gentoo
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libxml2-2.9.10-r3 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libxslt-1.1.34-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[gecko]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=app-emulation/wine-gecko-2.47.1 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r1::gentoo[crypt]
+# required by sys-libs/pam-1.4.0_p20200829-r1::gentoo
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libgcrypt-1.8.6 abi_x86_32
+# required by dev-libs/libgcrypt-1.8.6::gentoo
+# required by dev-libs/libxslt-1.1.34-r1::gentoo[crypt]
+# required by sys-libs/pam-1.4.0_p20200829-r1::gentoo
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libgpg-error-1.38 abi_x86_32
+# required by media-libs/freetype-2.10.4::gentoo[bzip2]
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=app-arch/bzip2-1.0.6-r11 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libtasn1-4.16.0 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libunistring-0.9.10 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/nettle-3.6-r2 abi_x86_32
+# required by dev-libs/nettle-3.6-r2::gentoo[gmp]
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/gmp-6.2.0-r1 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo[idn]
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[ssl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=net-dns/libidn2-2.3.0 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libsndfile-1.0.30 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libSM-1.2.3-r1 abi_x86_32
+# required by x11-libs/libSM-1.2.3-r1::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libICE-1.0.10 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=x11-libs/libXtst-1.2.3-r1 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-libs/libcap-2.43 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[glib]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/glib-2.64.5 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[tcpd]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-apps/tcp-wrappers-7.6.28 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[asyncns]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[alsa,alsa-plugin]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-plugins/alsa-plugins-1.2.2 abi_x86_32
+# required by dev-libs/glib-2.64.5::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[glib]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libpcre-8.44 abi_x86_32
+# required by x11-libs/libSM-1.2.3-r1::gentoo[uuid]
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-apps/util-linux-2.35.2 abi_x86_32
+# required by sys-libs/libcap-2.43::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-apps/attr-2.4.48-r4 abi_x86_32
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-libs/pam-1.4.0_p20200829-r1 abi_x86_32
+# required by sys-libs/pam-1.4.0_p20200829-r1::gentoo[berkdb]
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-libs/db-5.3.28-r4 abi_x86_32
+# required by media-libs/libsndfile-1.0.30::gentoo[-minimal]
+# required by media-sound/pulseaudio-13.0::gentoo
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/flac-1.3.3 abi_x86_32
+# required by media-libs/libvorbis-1.3.7::gentoo
+# required by media-libs/libsndfile-1.0.30::gentoo[-minimal]
+# required by media-sound/pulseaudio-13.0::gentoo
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libogg-1.3.4 abi_x86_32
+# required by media-libs/libsndfile-1.0.30::gentoo[-minimal]
+# required by media-sound/pulseaudio-13.0::gentoo
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libvorbis-1.3.7 abi_x86_32
+# required by media-libs/libsndfile-1.0.30::gentoo[-minimal]
+# required by media-sound/pulseaudio-13.0::gentoo
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/opus-1.3.1-r1 abi_x86_32
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libsdl2-2.0.12-r2 abi_x86_32
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[opengl]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/glu-9.0-r2 abi_x86_32
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[udev]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/libudev-232-r3 abi_x86_32
+# required by virtual/glu-9.0-r2::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[opengl]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/glu-9.0.1 abi_x86_32
+# required by virtual/libudev-232-r3::gentoo[-systemd]
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[udev]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-fs/eudev-3.2.9 abi_x86_32
+# required by sys-devel/gettext-0.21::gentoo
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by media-libs/lcms-2.11::gentoo[jpeg]
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/jpeg-100 abi_x86_32
+# required by virtual/jpeg-100::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[jpeg]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/libjpeg-turbo-2.0.5-r2 abi_x86_32
+# required by sys-devel/gettext-0.21::gentoo
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[fontconfig]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by sys-libs/pam-1.4.0_p20200829-r1::gentoo
+# required by sys-libs/libcap-2.43::gentoo[pam]
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-libs/libsdl2-2.0.12-r2::gentoo[pulseaudio]
+# required by app-emulation/faudio-20.02::gentoo
+# required by app-emulation/wine-vanilla-5.0.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=virtual/libcrypt-1-r1 abi_x86_32
