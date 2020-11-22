@@ -1,5 +1,5 @@
 # Gentoo_Handbook <img width="25" height="25" src="/gentoo-logo.png">
-<i>A condensed handbook for Gentoo to make installation and management easier</i>
+<i>A lightweight i3-gaps theme with condensed documentation on Gentoo</i>
 
 [Installation](documentation/installation.md) | [Kernel Build](documentation/kernel.md) | [Environment Management](documentation/management.md)
 
