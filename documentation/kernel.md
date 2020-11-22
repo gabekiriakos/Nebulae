@@ -1,4 +1,4 @@
-# Kernel Setup
+# Kernel
 
 The following configurations are personal so it is wise to read up on [configuring the kernel](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel). <br>
 To make things easier, install sys-apps/pciutils and use the command `lspci` to get hardware information for your specific build. <br>
