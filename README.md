@@ -70,8 +70,7 @@ app-misc/neofetch,
 x11-base/xorg-x11, 
 x11-drivers/nvidia-drivers, 
 virtual/wine, 
-games-util/lutris (requires dxvk-bin), 
-app-emulation/dxvk-bin (layman -a guru), 
+games-util/lutris (requires dxvk-bin),  
 x11-wm/i3-gaps, 
 x11-misc/i3status, 
 x11-misc/py3status, 
@@ -111,7 +110,7 @@ app-i18n/fcitx-anthy
 <summary>
 <b>Layman</b>
 </summary>
-<i>app-emulation/dxvk-bin (via Guru)</i>
+<i>app-emulation/dxvk-bin (layman -a guru)</i>
 </details>
 
 ---
