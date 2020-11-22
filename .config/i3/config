@@ -1,0 +1,235 @@
+# i3 config file (v4)
+
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+# Restore Nvidia Settings
+bindsym Menu exec --no-startup-id nvidia-settings --load-config-only
+
+# i3 gaps
+for_window [class="^.*"] border pixel 1 
+gaps inner 20 
+gaps outer 10 
+
+set $mod Mod4
+
+# i3 font
+font pango:Noto Sans 14px 
+
+# drag floating windows with Mouse+$mod
+floating_modifier $mod
+
+# launch terminal
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
+
+# kill focused window
+bindsym Control+q kill
+
+# i3lock settings
+set $Locker i3lock -i /home/$USER/Pictures/lockscreen.png 
+
+# Autostart i3lock
+exec --no-startup-id $Locker
+
+# System Menu
+set $mode_system  ˡ   ᵉ   ˢ   ʳ   ˣ  
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id $Locker; exec --no-startup-id loginctl suspend, mode "default"
+    bindsym r exec --no-startup-id loginctl reboot, mode "default"
+    bindsym x exec --no-startup-id loginctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+e mode "$mode_system"
+
+# Lock Screen
+bindsym $mod+l exec --no-startup-id $Locker, mode "default"
+
+# Rofi Menu
+bindsym $mod+d exec --no-startup-id rofi -show drun -location 1 -xoffset 2 -yoffset 27 -display-drun "" -disable-history -lines 5 -width 15 -font "Noto Sans Regular 10"
+
+# Active Windows Menu
+bindsym Mod1+Tab workspace next
+
+# Multi-screen screenshots with scrot
+bindsym $mod+p exec --no-startup-id scrot --delay 2 'screenshot_%Y%m%d_%H%M%S.png'
+
+# Passthrough Mode
+set $passthrough Passthrough Mode
+mode "$passthrough" {
+    bindsym Mod4+q mode "default"; exec --no-startup-id "picom -bcCf &"
+}
+
+bindsym Mod4+q mode "$passthrough"; exec --no-startup-id "pkill -fi picom"
+
+# change focus:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move windows:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# toggle tiling / floating
+bindsym $mod+w floating toggle
+
+# Define names for default workspaces for which we configure key bindings later on.
+set $ws1 "  "
+set $ws2 "  "
+set $ws3 "  "
+set $ws4 "  "
+set $ws5 "  "
+set $ws6 "  "
+set $ws7 "  "
+set $ws8 "  "
+set $ws9 "  "
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# class                 border      bground      text    indicator   child_border
+client.focused          #cccccc30   #96969680   #FFFFFF  #cccccc20    #cccccc10
+client.focused_inactive #96969680   #96969680   #FFFFFF  #cccccc20    #cccccc00
+client.unfocused        #333333     #222222     #888888  #cccccc20    #cccccc00
+client.urgent           #2F343A     #96969620   #FFFFFF  #96969620    #96969620
+client.placeholder      #000000     #0C0C0C     #FFFFFF  #000000      #0C0C0C
+
+client.background       #FFFFFF
+
+# i3bar
+set $transparent #00000090
+bar {
+    position top
+    status_command py3status -c /etc/i3status.conf
+    i3bar_command i3bar -t
+    colors {
+	background $transparent
+	separator $transparent
+        # class               border      bground      text
+        focused_workspace  $transparent $transparent  #ffffff
+        active_workspace   $transparent $transparent  #ffffff
+        inactive_workspace $transparent $transparent  #ffffff70
+        urgent_workspace   $transparent $transparent  #ffffff
+    }
+}
+
+# Audio controls
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# Media controls (playerctl required)
+bindsym XF86AudioPlay exec --no-startup-id playerctl play
+bindsym XF86AudioStop exec --no-startup-id playerctl pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+
+# Floating Windows
+for_window [class="Pcmanfm"] floating enable
+for_window [class="Nitrogen"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Gimp"] floating enable
+for_window [class="File-roller"] floating enable
+for_window [class="Font-manager"] floating enable
+for_window [class="Geany"] floating enable
+for_window [class="Baobab"] floating enable
+for_window [class="Steam"] floating enable
+for_window [class="Lutris"] floating enable
+
+# Assign Workspaces
+
+assign [class="Firefox"] $ws2
+for_window [class="Firefox"] focus
+
+assign [class="Spotify"] $ws3
+for_window [class="Spotify"] move to workspace $ws3 focus
+
+assign [class="Steam"] $ws4
+for_window [class="Steam"] focus
+
+assign [class="Lutris"] $ws4
+for_window [class="Lutris"] focus
+
+assign [class="vlc"] $ws5
+for_window [class="vlc"] focus
+
+assign [class="Skype"] $ws6
+for_window [class="Skype"] focus
+
+assign [class="zoom"] $ws6
+for_window [class="zoom"] focus
+
+assign [class="Wine"] $ws7
+for_window [class="Wine"] focus
+
+assign [class="Audacity"] $ws7
+for_window [class="Audacity"] focus
+
+assign [class="Unity"] $ws8
+for_window [class="Unity"] focus
+
+assign [class="UnityHub"] $ws8
+for_window [class="UnityHub"] focus
+
+assign [class="Blender"] $ws9
+for_window [class="Blender"] focus
