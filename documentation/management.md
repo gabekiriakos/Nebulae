@@ -13,13 +13,13 @@ emerge --ask --update --changed-use --quiet @world
 emerge --ask --update --newuse --quiet @world
 
 (add package from @world)
-emerge <package>
+emerge --ask <package>
 
 (remove package from @world)
-emerge --deselect <package>
+emerge --ask --deselect <package>
 
 (remove unused packages from system - this should be run after system updates)
-emerge --depclean
+emerge --ask --depclean
 
 (make changes to /etc/portage/package.use and /etc/security/limits.conf when prompted)
 etc-update
