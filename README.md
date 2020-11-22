@@ -69,6 +69,6 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 Dotfiles should be added to their respective locations according to the framework of this distribution.  [Refer to the wiki](https://wiki.gentoo.org/wiki/Main_Page) for details concerning each application.<br>
 
 <b>Disclaimer:</b><br>
-<i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for power users willing to invest in the time and patience to build their own environment.</i>
+<i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for advanced power users willing to invest in the time and patience to build their own environment.</i>
 
 ![screenshot](/screenshot.png)
