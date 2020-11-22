@@ -17,7 +17,7 @@
 
 <br>
 
-<b>Overview:</b>
+<b>Environment:</b>
 * Distro: [Gentoo](https://www.gentoo.org/)
 * Init: [OpenRC](https://wiki.gentoo.org/wiki/Project:OpenRC)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
