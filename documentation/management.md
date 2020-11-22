@@ -2,38 +2,35 @@
 
 Although the following commands are often used, check the [cheat sheet](https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet) for details.
 
-```bash
-(updates repositories - typically once a day)
-emerge-webrsync
+Update repositories (typically once a day): <br>
+`emerge-webrsync`
 
-(if flag changes have been made with intent to update only several packages)
-emerge --ask --update --changed-use --quiet @world
+Flag changes have been made with intent to update only several packages: <br>
+`emerge --ask --update --changed-use --quiet @world`
 
-(if new flags have been added locally or globally with intent to update the entire system)
-emerge --ask --update --newuse --quiet @world
+New flags have been added locally or globally with intent to update the entire system: <br>
+`emerge --ask --update --newuse --quiet @world`
 
-(add package from @world)
-emerge --ask <package>
+Add package from @world: <br>
+`emerge --ask <package>`
 
-(remove package from @world)
-emerge --ask --deselect <package>
+Remove package from @world: <br>
+`emerge --ask --deselect <package>`
 
-(remove unused packages from system - this should be run after system updates)
-emerge --ask --depclean
+Remove unused packages from system (should be run after system updates): <br>
+`emerge --ask --depclean`
 
-(make changes to /etc/portage/package.use and /etc/security/limits.conf when prompted)
-etc-update
+Make changes to /etc/portage/package.use and /etc/security/limits.conf when prompted: <br>
+`etc-update`
 
-(list available overlay repos)
-layman -L
+List available overlay repos: <br>
+`layman -L`
 
-(add repo)
-layman -a <name>
+Add overlay repo: <br>
+`layman -a <name>`
 
-(remove repo)
-layman -d <name>
+Remove overlay repo: <br>
+`layman -d <name>`
 
-(update repos)
-layman -S
-
-```
+Update repos: <br>
+`layman -S`
