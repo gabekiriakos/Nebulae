@@ -46,14 +46,67 @@ Refer to i3 config for all other features and key bindings.
 <summary>
 <b>Emerge</b>
 </summary>
-<i>xorg (all), i3 (gaps, status, lock), py3status, python-pydbus, rofi, dunst, picom, lightdm, git, terminator, networkmanager, network-manager-applet, udisks2, udiskie, ntfs-3g, reflector, nitrogen, gimp, firefox, vlc, libdvdnav, ranger, pcmanfm, noto-fonts, noto-fonts-extra, noto-fonts-cjk, noto-fonts-emoji, ttf-font-awesome, nvidia, nvidia-settings, lib32-nvidia-utils (multilib), steam (multilib), lutris (multilib) wine (multilib), htop, grub-customizer, lxappearance, neofetch, powerline, pulseaudio, pavucontrol, fcitx (all), fcitx-configtool, fcitx-mozc, gtk-engines, gtk-engine-murrine, gnome-themes-extra, baobab, file-roller, bluez, bluez-utils, blueman, papirus-icon-theme, pasystray</i>
+<i>
+sys-kernel/linux-firmware, 
+app-portage/genlop, 
+app-portage/layman, 
+media-libs/jpeg, 
+net-misc/networkmanager, 
+gnome-extra/nm-applet, 
+sys-auth/elogind, 
+app-admin/sudo, 
+app-editors/vim, 
+app-vim/airline, 
+app-vim/nerdtree, 
+dev-vcs/git, 
+dev-python/dbus-python, 
+app-misc/ranger, 
+app-misc/neofetch, 
+x11-base/xorg-x11, 
+x11-drivers/nvidia-drivers, 
+virtual/wine, 
+games-util/lutris (requires dxvk-bin), 
+app-emulation/dxvk-bin (layman -a guru), 
+x11-wm/i3-gaps, 
+x11-misc/i3status, 
+x11-misc/py3status, 
+x11-misc/i3lock, 
+x11-misc/picom, 
+x11-misc/pcmanfm, 
+x11-misc/rofi, 
+x11-terms/terminator, 
+x11-misc/lightdm, 
+x11-misc/nitrogen, 
+x11-misc/dunst, 
+sys-fs/udiskie, 
+sys-fs/ncdu, 
+sys-fs/ntfs3g, 
+sys-process/htop, 
+media-fonts/noto, 
+media-fonts/noto-cjk, 
+media-fonts/noto-emoji, 
+media-fonts/fontawesome, 
+media-sound/alsa-utils, 
+media-sound/pulseaudio, 
+media-sound/pavucontrol, 
+media-sound/pasystray, 
+www-client/links, 
+www-client/firefox, 
+media-video/vlc, 
+media-libs/libdvdnav, 
+x11-themes/papirus-icon-theme, 
+lxde-base/lxappearance, 
+app-i18n/fcitx, 
+app-i18n/fcitx-configtool, 
+app-i18n/fcitx-anthy
+</i>
 </details>
 
 <details>
 <summary>
 <b>Layman</b>
 </summary>
-<i>DXVK-bin (via Guru)</i>
+<i>app-emulation/dxvk-bin (via Guru)</i>
 </details>
 
 ---
