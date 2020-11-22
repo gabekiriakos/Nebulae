@@ -25,6 +25,10 @@
 * Compositor: [picom](https://github.com/yshui/picom)
 * Terminal: [Terminator](https://terminator-gtk3.readthedocs.io/en/latest/)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
+* Fonts: 
+   * Noto Sans
+   * Monaco (terminal)
+   * Awesome (glyphs)
 
 <br>
 
