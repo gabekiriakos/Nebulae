@@ -131,6 +131,9 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 > ```c
 > username hard nofile 524288
 > ```
+
+Additionally, DXVK [must be configured](https://wiki.gentoo.org/wiki/DXVK) for 32-bit driver support.
+
 ---
 
 Dotfiles should be added to their respective locations according to the framework of this distribution.  [Refer to the wiki](https://wiki.gentoo.org/wiki/Main_Page) for details concerning each application.<br>
