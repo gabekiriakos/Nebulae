@@ -1,6 +1,6 @@
 # Installation
 
-[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
+[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](../documentation/installation.md) | [Kernel](../documentation/kernel.md) | [Management](../documentation/management.md)
 
 The following is a condensed version of the [AMD64 Handbook](https://wiki.gentoo.org/wiki/Handbook:AMD64) for installing Gentoo.<br>
 It is highly recommended to observe it throughout this process for details specific to your own build since this is personalized.
