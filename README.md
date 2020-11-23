@@ -1,27 +1,15 @@
 # Nebulae <img width="25" height="25" src="/gentoo-logo.png">
-<i>A lightweight i3-gaps theme and condensed documentation on Gentoo</i>
-
-[Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
+[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
 
 ---
 
-<b>Hardware:</b>
-* CPU: [AMD Ryzen 3600 @ 4.2Ghz](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
-* RAM: [G.Skill FlareX 3200Mhz 16GB](https://www.gskill.com/product/165/170/1535961634/F4-3200C14D-16GFX-Overview)
-* Disk: [WD SN550 NVMe SSD](https://www.westerndigital.com/products/internal-drives/wd-blue-nvme-ssd)
-* GPU: [Gigabyte NVIDIA GTX 1660 SUPER](https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD#kf)
-* Mobo: [ASUS ROG STRIX B450-I GAMING](https://rog.asus.com/Motherboards/ROG-Strix/ROG-STRIX-B450-I-GAMING-Model/)
-* Modules: 
-    * [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html)
-    * [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
-* Peripherals: 
-    * [Razer BlackWidow Lite](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Lite/RZ03-02640200-R3U1)
-    * [Logitech G403 Hero](https://www.logitechg.com/en-us/products/gaming-mice/g403-hero-gaming-mouse.html)
+<b>Disclaimer:</b><br>
+<i>It should go without saying that I am not responsible for anything YOU did to YOUR system. <br>
+Gentoo is targeted for <ins>advanced</ins> power users willing to invest in the time and patience to build their own environment.</i>
 
+---
 
-<br>
-
-<b>Environment:</b>
+<b>Environment:</b> <img align="right" width="70%" height="70%" src="/screenshot.png">
 * Distro: [Gentoo](https://www.gentoo.org/)
 * Init: [OpenRC](https://wiki.gentoo.org/wiki/Project:OpenRC)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
@@ -37,6 +25,21 @@
 
 <br>
 
+<b>Hardware:</b>
+* CPU: [AMD Ryzen 3600 @ 4.2Ghz](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
+* RAM: [G.Skill FlareX 3200Mhz 16GB](https://www.gskill.com/product/165/170/1535961634/F4-3200C14D-16GFX-Overview)
+* Disk: [WD SN550 NVMe SSD](https://www.westerndigital.com/products/internal-drives/wd-blue-nvme-ssd)
+* GPU: [Gigabyte NVIDIA GTX 1660 SUPER](https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD#kf)
+* Mobo: [ASUS ROG STRIX B450-I GAMING](https://rog.asus.com/Motherboards/ROG-Strix/ROG-STRIX-B450-I-GAMING-Model/)
+* Modules: 
+    * [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html)
+    * [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
+* Peripherals: 
+    * [Razer BlackWidow Lite](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Lite/RZ03-02640200-R3U1)
+    * [Logitech G403 Hero](https://www.logitechg.com/en-us/products/gaming-mice/g403-hero-gaming-mouse.html)
+
+<br>
+
 <b>Noteable Features:</b>
 * System Menu: <i>super+e</i>
 * Programs Menu: <i>super+d</i>
@@ -46,7 +49,7 @@
 * Exit Active Window: <i>ctrl+q</i>
 * Passthrough Mode (lock all bindings): <i>super+q</i> <br>
 
-Refer to i3 config for all other features and key bindings.
+Refer to the [i3 config](.config/i3/config) for all other features and key bindings.
 
 ---
 <b>Dependencies:</b>
@@ -144,8 +147,3 @@ Additionally, DXVK [must be configured](https://wiki.gentoo.org/wiki/DXVK) for 3
 ---
 
 Dotfiles should be added to their respective locations according to the framework of this distribution.  [Refer to the wiki](https://wiki.gentoo.org/wiki/Main_Page) for details concerning each application.<br>
-
-<b>Disclaimer:</b><br>
-<i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for advanced power users willing to invest in the time and patience to build their own environment.</i>
-
-![screenshot](/screenshot.png)
