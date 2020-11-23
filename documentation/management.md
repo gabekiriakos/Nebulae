@@ -2,6 +2,39 @@
 
 [Home](https://github.com/gabekiriakos/Nebulae) | [Installation](../documentation/installation.md) | [Kernel](../documentation/kernel.md) | [Management](../documentation/management.md)
 
+USE flags can be determined globally or locally.  They are designed to make each package as minimal as possible, effectively removing any potential bloat in the process.  This also helps make compiling much faster.  More on this [here](https://wiki.gentoo.org/wiki/USE_flag).
+
+The most important thing to understand is the [precedence](https://wiki.gentoo.org/wiki/Handbook:AMD64/Working/USE#Precedence) of USE flags.  Your default profile already has USE flags predetermined and take on the lowest precendence, while changes at the time of installing a package at the command line take on the highest precendence.  Global USE flags are established in your [`make.conf`](../etc/portage/make.conf), while local ones are set in the [package.use](../etc/portage/package.use) directory.  
+
+When installing a package, you will often encounter a prompt like the following:
+
+```bash
+root #emerge --ask media-sound/sfc
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies... done!
+[ebuild  N    #] media-sound/sfc-0.018-r1 
+
+The following mask changes are necessary to proceed:
+ (see "package.unmask" in the portage(5) man page for more details)
+# required by media-sound/sfc (argument)
+# /var/db/portage/profiles/package.mask:
+# Jonas Stein <jstein@gentoo.org> (24 Jun 2019)
+# Source is broken. Upstream is dead since 2011.
+# Removal after 2019-08-01. (bug #688552)
+=media-sound/sfc-0.018-r1
+
+NOTE: The --autounmask-keep-masks option will prevent emerge
+      from creating package.unmask or ** keyword changes.
+
+Would you like to add these changes to your config files? [Yes/No] 
+```
+
+Although the Gentoo wiki [covers it](https://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package), I personally find the easiest way to deal with this is to say `Yes`, run `etc-update`, select the newly updated config (typically option #1), and create an example file (typically option #5).  Then, you should rename this new file to the name of the package you intend to install by running `mv /etc/portage/package.use/<example_file> /etc/portage/package.use/<new_name>`.  If this has been done correctly, you should be able to install the package on the next attempt.
+
+Your default profile selected at the time of installation has some package restrictions by default.  If the package you want to install throws an "accept" error, [`package.accept_keywords`](../etc/portage/package.accept_keywords) needs to be updated.
+
 Although the following commands are often used, check the [cheat sheet](https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet) for details.
 
 Update repositories (typically once a day): <br>
