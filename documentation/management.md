@@ -4,7 +4,7 @@
 
 USE flags can be determined globally or locally.  They are designed to make each package as minimal as possible, effectively removing any potential bloat in the process.  This also helps make compiling much faster.  More on this [here](https://wiki.gentoo.org/wiki/USE_flag).
 
-The most important thing to understand is the [precedence](https://wiki.gentoo.org/wiki/Handbook:AMD64/Working/USE#Precedence) of USE flags.  Your default profile already has USE flags predetermined and take on the lowest precendence, while changes at the time of installing a package at the command line take on the highest precendence.  Global USE flags are established in your [`make.conf`](../etc/portage/make.conf), while local ones are set in the [package.use](../etc/portage/package.use) directory.  
+The most important thing to understand is the [precedence](https://wiki.gentoo.org/wiki/Handbook:AMD64/Working/USE#Precedence) of USE flags.  Your default profile already has USE flags predetermined and take on the lowest precendence, while changes at the time of installing a package at the command line take on the highest precendence.  Global USE flags are established in your [`make.conf`](../etc/portage/make.conf), while local ones are set in the [`/etc/portage/package.use`](../etc/portage/package.use) directory by package name.  
 
 When installing a package, you will often encounter a prompt like the following:
 
