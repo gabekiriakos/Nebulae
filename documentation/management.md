@@ -1,5 +1,7 @@
 # Management
 
+[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](../documentation/installation.md) | [Kernel](../documentation/kernel.md) | [Management](../documentation/management.md)
+
 Although the following commands are often used, check the [cheat sheet](https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet) for details.
 
 Update repositories (typically once a day): <br>
