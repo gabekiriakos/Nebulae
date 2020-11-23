@@ -48,6 +48,7 @@ Dotfiles should be added to their respective locations according to the framewor
 <i>
 sys-kernel/linux-firmware, 
 app-portage/genlop, 
+app-portage/gentoolkit, 
 app-portage/layman, 
 media-libs/jpeg, 
 net-misc/networkmanager, 
