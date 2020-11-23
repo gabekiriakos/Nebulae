@@ -156,7 +156,7 @@ passwd (set root password)
 
 useradd -m (new_user)
 passwd (user)
-usermod -aG wheel,audio,video,storage,power,optical,lp (user)
+usermod -aG wheel,audio,video,lp (user)
 groups (user)
 
 emerge --ask app-admin/sysklogd
