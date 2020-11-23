@@ -2,6 +2,21 @@
 
 [Home](https://github.com/gabekiriakos/Nebulae) | [Installation](../documentation/installation.md) | [Kernel](../documentation/kernel.md) | [Management](../documentation/management.md)
 
+<b>Hardware:</b>
+* CPU: [AMD Ryzen 3600 @ 4.2Ghz](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
+* RAM: [G.Skill FlareX 3200Mhz 16GB](https://www.gskill.com/product/165/170/1535961634/F4-3200C14D-16GFX-Overview)
+* Disk: [WD SN550 NVMe SSD](https://www.westerndigital.com/products/internal-drives/wd-blue-nvme-ssd)
+* GPU: [Gigabyte NVIDIA GTX 1660 SUPER](https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD#kf)
+* Mobo: [ASUS ROG STRIX B450-I GAMING](https://rog.asus.com/Motherboards/ROG-Strix/ROG-STRIX-B450-I-GAMING-Model/)
+* Modules: 
+    * [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html)
+    * [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
+* Peripherals: 
+    * [Razer BlackWidow Lite](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Lite/RZ03-02640200-R3U1)
+    * [Logitech G403 Hero](https://www.logitechg.com/en-us/products/gaming-mice/g403-hero-gaming-mouse.html)
+
+<br>
+
 The following configurations are personal so it is wise to read up on [configuring the kernel](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel). <br>
 To make things easier, `emerge --ask sys-apps/pciutils` and run `lspci` to get hardware information for your specific build. <br>
 Keep in mind that for network adapters to work correctly, they must be installed as <ins>modules</ins>. <br>
