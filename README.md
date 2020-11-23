@@ -14,6 +14,10 @@
 * Modules: 
     * [Intel Corporation I211 Gigabit Network Connection](https://ark.intel.com/content/www/us/en/ark/products/64404/intel-ethernet-controller-i211-at.html)
     * [Realtek RTL8822BE WiFi/Bluetooth](https://www.realtek.com/en/products/communications-network-ics/item/rtl8822be)
+* Peripherals: 
+    * [Razer BlackWidow Lite](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Lite/RZ03-02640200-R3U1)
+    * [Logitech G403 Hero](https://www.logitechg.com/en-us/products/gaming-mice/g403-hero-gaming-mouse.html)
+
 
 <br>
 
@@ -27,9 +31,9 @@
 * Menu: [Rofi](https://github.com/davatorium/rofi)
 * Icons: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 * Fonts: 
-   * Noto Sans
-   * Monaco (terminal)
-   * Awesome (glyphs)
+   * [Noto Sans](https://packages.gentoo.org/packages/media-fonts/noto)
+   * [Monaco](.fonts/monaco.ttf) (terminal)
+   * [Awesome](https://packages.gentoo.org/packages/media-fonts/fontawesome) (glyphs)
 
 <br>
 
