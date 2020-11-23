@@ -1,7 +1,6 @@
 # Nebulae <img width="25" height="25" src="/gentoo-logo.png">
-[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
 
----
+[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](documentation/installation.md) | [Kernel](documentation/kernel.md) | [Management](documentation/management.md)
 
 <b>Disclaimer:</b><br>
 <i>It should go without saying that I am not responsible for anything YOU did to YOUR system. <br>
@@ -40,7 +39,7 @@ Gentoo is targeted for <ins>advanced</ins> power users willing to invest in the 
 
 <br>
 
-<b>Noteable Features:</b>
+<b>Features:</b>
 * System Menu: <i>super+e</i>
 * Programs Menu: <i>super+d</i>
 * Screenshot (requires Scrot): <i>super+p</i>
@@ -50,6 +49,9 @@ Gentoo is targeted for <ins>advanced</ins> power users willing to invest in the 
 * Passthrough Mode (lock all bindings): <i>super+q</i> <br>
 
 Refer to the [i3 config](.config/i3/config) for all other features and key bindings.
+
+Dotfiles should be added to their respective locations according to the framework of this distribution. <br>
+[Refer to the wiki](https://wiki.gentoo.org/wiki/Main_Page) for details concerning each application.
 
 ---
 <b>Dependencies:</b>
@@ -143,7 +145,3 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 > ```
 
 Additionally, DXVK [must be configured](https://wiki.gentoo.org/wiki/DXVK) for 32-bit driver support.
-
----
-
-Dotfiles should be added to their respective locations according to the framework of this distribution.  [Refer to the wiki](https://wiki.gentoo.org/wiki/Main_Page) for details concerning each application.<br>
