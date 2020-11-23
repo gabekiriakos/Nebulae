@@ -1,5 +1,7 @@
 # Kernel
 
+[Home](https://github.com/gabekiriakos/Nebulae) | [Installation](../documentation/installation.md) | [Kernel](../documentation/kernel.md) | [Management](../documentation/management.md)
+
 The following configurations are personal so it is wise to read up on [configuring the kernel](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel). <br>
 To make things easier, `emerge --ask sys-apps/pciutils` and run `lspci` to get hardware information for your specific build. <br>
 Keep in mind that for network adapters to work correctly, they must be installed as <ins>modules</ins>. <br>
