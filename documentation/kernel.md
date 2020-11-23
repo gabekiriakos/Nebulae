@@ -22,6 +22,8 @@ To make things easier, `emerge --ask sys-apps/pciutils` and run `lspci` to get h
 Keep in mind that for network adapters to work correctly, they must be installed as <ins>modules</ins>. <br>
 Included in this repo is the [kernel config](/usr/src/linux/.config) with most of these settings and more that can be loaded during `make menuconfig`.
 
+<br>
+
 ```bash
 KERNEL Enabling NTFS over FUSE using NTFS-3G
 File systems  --->
