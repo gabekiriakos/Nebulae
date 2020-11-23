@@ -17,10 +17,10 @@
 
 <br>
 
-The following configurations are personal so it is wise to read up on [configuring the kernel](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel). <br>
+The following configurations are based on my personal setup so it is wise to read the wiki about [configuring the kernel](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel). <br>
 To make things easier, `emerge --ask sys-apps/pciutils` and run `lspci` to get hardware information for your specific build. <br>
 Keep in mind that for network adapters to work correctly, they must be installed as <ins>modules</ins>. <br>
-Included in this repo is the [kernel config](/usr/src/linux/.config) with most of these settings and more that can be loaded during `make menuconfig`.
+Included in this repo is my [kernel config](/usr/src/linux/.config) with most of these settings and others that can be loaded when running `make menuconfig`.
 
 <br>
 
