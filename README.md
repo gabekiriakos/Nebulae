@@ -8,8 +8,8 @@ Gentoo is targeted for <ins>advanced</ins> power users willing to invest in the 
 
 ---
 
-<b>Environment:</b> <img align="right" width="70%" height="70%" src="/screenshot.png">
-* Distro: [Gentoo](https://www.gentoo.org/)
+<b>Environment:</b>
+* Distro: [Gentoo](https://www.gentoo.org/) <img align="right" width="60%" height="60%" src="/screenshot.png">
 * Init: [OpenRC](https://wiki.gentoo.org/wiki/Project:OpenRC)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
 * Status: [py3status](https://github.com/ultrabug/py3status)
