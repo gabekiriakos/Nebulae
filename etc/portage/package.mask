@@ -1,0 +1,2 @@
+# Mask kernel since it is stable
+>=sys-kernel/gentoo-sources-5.4.72
