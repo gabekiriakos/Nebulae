@@ -15,4 +15,9 @@ if [[ $- != *i* ]] ; then
 fi
 
 # Put your fun stuff here.
-PS1='\[\e[1;35m\]\W  \[\e[m\]'
+
+BLUE="\[$(tput setaf 4)\]"
+MAGENTA="\[$(tput setaf 5)\]"
+RESET="\[$(tput sgr0)\]"
+
+PS1="${BLUE}\w${MAGENTA}  ${RESET}"
