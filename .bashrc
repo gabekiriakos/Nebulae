@@ -20,4 +20,4 @@ BLUE="\[$(tput setaf 4)\]"
 MAGENTA="\[$(tput setaf 5)\]"
 RESET="\[$(tput sgr0)\]"
 
-PS1="${BLUE}\w${MAGENTA}  ${RESET}"
+PS1="${BLUE}[\w]${MAGENTA}: ${RESET}"
