@@ -25,24 +25,22 @@ def get_info(players, fmt):
     return run(*player_args(players), *args).strip()
 
 class Py3status:
-    players = ''
-    play_format = '  {{ artist }} - {{ title }}'
-    pause_format = '  {{ artist }} - {{ title }}'
+    players         = ''
+    play_format     = '  {{ artist }} - {{ title }}'
+    pause_format    = '  {{ artist }} - {{ title }}'
 
     def spotbar(self):
         text_format = "[[ {info} ]]|[ {status} ]"
 
         params = {'status': get_status(self.players)}
 
-        if params['status'] == 'Playing':
+        if params['status'] == 'Playing': 
             params['info'] = get_info(self.players, self.play_format)
-            if params['info'] == '/ -':
-                params['info'] = None
-        
-        if params['status'] == 'Paused':
+        else:
             params['info'] = get_info(self.players, self.pause_format)
-            if params['info'] == '/ -':
-                params['info'] = None
+            
+        if params['info'] == '/ -':
+            parmas['info'] = None
 
         return {
             'full_text': self.py3.safe_format(text_format, params),
@@ -52,8 +50,3 @@ class Py3status:
     def on_click(self, event):
         if event['button'] == 1:
             run('playerctl', 'play-pause')
-
-
-#if __name__ == '__main__':
-#    from py3status.module_test import module_test
-#    module_test(Py3status)
