@@ -6,7 +6,7 @@
 
 USE flags can be determined globally or locally.  They are designed to make each package as minimal as possible, effectively removing any potential bloat in the process.  This also helps make compiling much faster.  More on this [here](https://wiki.gentoo.org/wiki/USE_flag).
 
-The most important thing to understand is the [precedence](https://wiki.gentoo.org/wiki/Handbook:AMD64/Working/USE#Precedence) of USE flags.  Your default profile already has USE flags predetermined and take on the lowest precendence, while changes at the time of installing a package at the command line take on the highest precendence.  Global USE flags are established in your [`make.conf`](../etc/portage/make.conf), while local ones are set in the [`/etc/portage/package.use`](../etc/portage/package.use) directory by package name.  
+The most important thing to understand is the [precedence of USE flags](https://wiki.gentoo.org/wiki/Handbook:AMD64/Working/USE#Precedence).  Your default profile already has USE flags predetermined and take on the lowest precendence, while changes at the time of installing a package at the command line take on the highest precendence.  Global USE flags are established in your [`make.conf`](../etc/portage/make.conf), while local ones are set in the [`/etc/portage/package.use`](../etc/portage/package.use) directory by package name.  
 
 ### Accept Keywords
 
@@ -35,7 +35,7 @@ NOTE: The --autounmask-keep-masks option will prevent emerge
 Would you like to add these changes to your config files? [Yes/No] 
 ```
 
-Although the Gentoo wiki [covers it](https://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package), I personally find the easiest way to deal with this is to say `Yes`, run `etc-update`, select the newly updated config (typically option #1), and create an example file (typically option #5).  Then, you should rename this new file to the name of the package you intend to install by running `mv /etc/portage/package.use/<example_file> /etc/portage/package.use/<new_name>`.  If this has been done correctly, you should be able to install the package on the next attempt.
+Although the Gentoo wiki [covers it](https://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package), I personally find the easiest way to deal with this is to say `Yes`, run `etc-update`, select the newly updated config (typically option #1), and create an example file (typically option #5).  Then, you should rename this new file to the name of the package you intend to install by running `mv /etc/portage/package.use/<example_file> /etc/portage/package.use/<new_name>`.  Another alternative is to use a single file (`/etc/portage/package.use/<single_file>`) for all changes instead of separate ones.  Once either of these steps has been done correctly, you should be able to install the package on the next attempt.
 
 Your default profile selected at the time of installation has some package restrictions by default.  If the package you want to install throws an "accept" error, [`package.accept_keywords`](../etc/portage/package.accept_keywords) needs to be updated.
 
