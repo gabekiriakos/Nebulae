@@ -5,3 +5,7 @@
 # required by games-util/lutris-9999::gentoo
 # required by games-util/lutris (argument)
 >=media-libs/harfbuzz-2.7.2 icu
+# required by games-util/lutris-9999::gentoo[python_single_target_python3_8]
+# required by @selected
+# required by @world (argument)
+>=dev-lang/python-3.8.6:3.8 sqlite

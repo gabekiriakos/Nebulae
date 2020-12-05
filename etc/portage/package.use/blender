@@ -1,0 +1,28 @@
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_7
+# required by dev-python/cython-0.29.21-r1::gentoo
+# required by dev-python/numpy-1.19.2::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-50.3.0 python_targets_python3_7
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/six-1.15.0-r1 python_targets_python3_7
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/numpy-1.19.3 python_targets_python3_7
+# required by dev-python/numpy-1.19.3::gentoo
+# required by media-gfx/blender-2.83.4-r1::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-python/cython-0.29.21-r1 python_targets_python3_7
+
