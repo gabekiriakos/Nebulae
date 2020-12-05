@@ -1,0 +1,4 @@
+# required by dev-util/lldb-11.0.0::gentoo
+# required by dev-dotnet/dotnetcore-runtime-bin-2.0.7::dotnet
+# required by dev-dotnet/dotnetcore-runtime-bin (argument)
+>=sys-devel/clang-11.0.0 xml
