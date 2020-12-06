@@ -217,6 +217,7 @@ endif
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let g:airline#extensions#tabline#enabled = 1
+set report=0
 set number
 set ttimeoutlen=50
 highlight LineNr ctermfg=grey
