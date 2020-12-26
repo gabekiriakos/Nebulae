@@ -1,5 +1,0 @@
-# package.use# required by dev-qt/qtcore-5.15.1-r1::gentoo
-# required by dev-libs/quazip-0.9.1::gentoo
-# required by net-im/zoom-5.4.53391.1108::gentoo
-# required by net-im/zoom (argument)
->=dev-libs/libpcre2-10.35 pcre16
