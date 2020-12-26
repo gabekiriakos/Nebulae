@@ -21,3 +21,15 @@ MAGENTA="\[$(tput setaf 5)\]"
 RESET="\[$(tput sgr0)\]"
 
 PS1="${BLUE}[\w]${MAGENTA}: ${RESET}"
+
+# Useful aliases
+alias \
+	update='sudo emerge-webrsync; 
+		sudo layman -S; 
+		sudo emerge -uND @world' \
+	clean='sudo emerge --depclean; 
+	       sudo eclean-dist -d; 
+	       sudo eclean-pkg -d; 
+	       echo "Before:" `sudo du -sh ~/.cache/`;
+	       rm -rf ~/.cache/*;
+	       echo "After:" `sudo du -sh ~/.cache/`' \
