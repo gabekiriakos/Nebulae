@@ -1,8 +1,0 @@
-app-emulation/dxvk-bin abi_x86_32
-# package.use# required by app-emulation/dxvk-bin-1.7.2::guru
-# required by app-emulation/dxvk-bin (argument)
->=app-emulation/wine-vanilla-5.0.2 vulkan
-# required by app-emulation/wine-vanilla-5.0.2::gentoo[vulkan]
-# required by app-emulation/dxvk-bin-1.7.2::guru
-# required by app-emulation/dxvk-bin (argument)
->=media-libs/vulkan-loader-1.2.141-r1 abi_x86_32
