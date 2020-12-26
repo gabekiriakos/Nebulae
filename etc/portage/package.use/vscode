@@ -1,0 +1,6 @@
+>=dev-util/electron-9.3.1:9.3
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by app-editors/visual-studio-code-1.52.1::gentoo-zh
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.4 png

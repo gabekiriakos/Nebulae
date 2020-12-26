@@ -1,0 +1,4 @@
+media-video/vlc qt5 dvd
+# package.use# required by media-video/vlc-3.0.11.1::gentoo
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip

@@ -1,0 +1,6 @@
+# package.use# required by media-libs/mesa-20.2.4::gentoo[-video_cards_r600,llvm,-video_cards_radeon,-video_cards_radeonsi,gallium,-opencl]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-misc/picom-8::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-11.0.0 abi_x86_32
