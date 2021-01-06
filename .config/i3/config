@@ -195,8 +195,12 @@ for_window [class="Geany"] floating enable
 for_window [class="Baobab"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="Lutris"] floating enable
+for_window [class="Ristretto"] floating enable
 
 # Assign Workspaces
+
+assign [class="Code"] $ws1
+for_window [class="Code"] focus
 
 assign [class="Firefox"] $ws2
 for_window [class="Firefox"] focus
