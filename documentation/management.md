@@ -85,3 +85,21 @@ Clean distfiles: <br>
 
 Clean packages: <br>
 `eclean-pkg -dp` (remove `p` if sure)
+
+### Aliases
+
+Since many commands are quite verbose, it is best practice to establish [aliases](https://www.tecmint.com/create-alias-in-linux/) that make Gentoo easier to manage.
+The following is taken from my [.bashrc](../.bashrc) that I commonly use to `update` and `clean` the system:
+
+```bash
+alias \
+	update='sudo emerge-webrsync; 
+		sudo layman -S; 
+		sudo emerge -uND @world' \
+	clean='sudo emerge --depclean; 
+	       sudo eclean-dist -d; 
+	       sudo eclean-pkg -d; 
+	       echo "Before:" `sudo du -sh ~/.cache/`;
+	       rm -rf ~/.cache/*;
+	       echo "After:" `sudo du -sh ~/.cache/`' \
+```
