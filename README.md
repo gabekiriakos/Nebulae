@@ -4,7 +4,7 @@
 
 <b>Disclaimer:</b><br>
 <i>It should go without saying that I am not responsible for anything YOU did to YOUR system. <br>
-Gentoo is targeted for <ins>advanced</ins> power users willing to invest in the time and patience to build their own environment.</i>
+  Gentoo is targeted for <ins><b>advanced</b></ins> power users willing to invest in the time and patience to build their own environment.</i>
 
 ---
 
