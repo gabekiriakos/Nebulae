@@ -59,13 +59,12 @@ app-misc/screenfetch
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
-app-text/zathura
-app-text/zathura-meta
 app-vim/airline
 app-vim/nerdtree
 dev-python/dbus-python
 dev-vcs/git
 gnome-extra/nm-applet
+gui-libs/display-manager-init
 lxde-base/lxappearance
 media-fonts/fontawesome
 media-fonts/noto
@@ -90,7 +89,7 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/udiskie
 sys-kernel/genkernel
-sys-kernel/gentoo-sources
+sys-kernel/gentoo-sources:5.4.80-r1
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox
