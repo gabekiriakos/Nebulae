@@ -25,6 +25,3 @@ picom -bcCf &
 
 # Mount Disk Notification
 udiskie -ans &
-
-# Startup Sound
-sleep 2 && aplay .startupsound/psp_boot_sound.wav &
